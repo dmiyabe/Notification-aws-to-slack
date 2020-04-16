@@ -29,7 +29,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://gnk327-lambda-bucket/a6780f96ee57d52d7c77513b2ebea6d0
+      CodeUri: s3://gnk327-lambda-bucket/xxxxxxxxxxxxxxxxxxxxxxxx
       Handler: notify_awsToslack.lambda_handler
       Runtime: python3.7
       Role:
@@ -40,7 +40,7 @@ Resources:
         NotifySlack:
           Type: Schedule
           Properties:
-            Schedule: cron(30 13 ? * * *)
+            Schedule: cron(40 14 ? * * *)
 Outputs:
   HelloWorldFunction:
     Description: Hello World Lambda Function ARN
