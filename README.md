@@ -12,6 +12,27 @@ Notification is established with "slackweb" (Python library).
 * Install AWS SAM CLI.
 * Add slackweb of python library to Lambda function Layers.
 
+## tree
+
+```tree
+.
+├── README.md
+├── events
+│   └── event.json
+├── function
+│   ├── __init__.py
+│   ├── notify_awsToslack.py
+│   └── requirements.txt
+├── packaged.yaml
+├── template.yaml
+└── tests
+    └── unit
+        ├── __init__.py
+        └── test_handler.py
+
+4 directories, 9 files
+```
+
 ## build
 
 ```command
