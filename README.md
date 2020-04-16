@@ -55,3 +55,7 @@ sam deploy \
     --stack-name Notifyaws \
     --capabilities CAPABILITY_IAM \
 ```
+## Link
+
+Please check this article.
+[Incoming Webhook を使った Slack へ通知するシステムを AWS SAM で作ってみた](https://www.randynetwork.com/blog/aws-sam-slack-notify/)
